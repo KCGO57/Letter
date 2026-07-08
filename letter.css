@@ -1,6 +1,5 @@
 body{
     background-color: rgb(255, 210, 187);
-    overflow-x: hidden;
 }
 
 
@@ -131,7 +130,7 @@ body{
 .reset{
   position: relative;
   top: 290px;
-  left: 600px;
+  left: 41%;
 }
 .reset button {
   font-weight: 800;
