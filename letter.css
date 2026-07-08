@@ -1,12 +1,13 @@
 body{
-    background-color: rgb(236, 207, 212);
+    background-color: rgb(255, 210, 187);
 }
+
 
 #envelope{
     position: relative;
-    background-color: orange;
-    width: 280px;
-    height: 180px;
+    background-color:#e2ec59;
+    width: 380px;
+    height: 280px;
     border-radius: 6px;
     margin-left: auto;
     margin-right: auto;
@@ -19,10 +20,10 @@ body{
     width: 0;
     height: 0;
     z-index: 3;
-    border-left: 140px solid transparent;
-    border-right: 140px solid transparent;
-    border-bottom: 82px solid transparent;
-    border-top: 98px solid orange;
+    border-left: 190px solid transparent;
+    border-right: 190px solid transparent;
+    border-bottom: 132px solid transparent;
+    border-top: 148px solid #cac44d;
     border-radius: 6px;
     transform-origin: top;
     pointer-events: none;
@@ -33,17 +34,17 @@ body{
     width: 0;
     height: 0;
     z-index: 3;
-    border-left: 140px solid #f5a3a2; /* Soft pinkish red for the pocket */
-    border-right: 140px solid #f5a3a2;
-    border-bottom: 90px solid #ff6f61;
-    border-top: 90px solid transparent;
+    border-left: 190px solid #e2ec59; /* Soft pinkish red for the pocket */
+    border-right: 190px solid#e0ec59;
+    border-bottom: 140px solid #cab34d;
+    border-top: 140px solid transparent;
     border-radius: 6px;
 }
 
 
 .letter{
     position: relative;
-    background-color: rgb(202, 194, 112);
+    background-color: rgb(232, 200, 130);
     width: 90%;
     height: 90%;
     margin-left: auto;
@@ -64,7 +65,7 @@ body{
 
 .words {
   position: absolute;
-  left: 5%;
+  left: 2%;
 }
 
 .words.line1 {
@@ -72,18 +73,30 @@ body{
 }
 
 .words.line2 {
-  top: 30%;
+  top: 20%;
   text-align: center;
 }
 
 .words.line3 {
-  top: 50%;
+  top: 35%;
   text-align: center;
 }
 
 .words.line4 {
-  top: 70%;
+  top: 50%;
   text-align: center;
+}
+
+.words.line5 {
+  top: 75%;
+  text-align: center;
+  left: 30%;
+}
+
+.words.line6 {
+  top: 80%;
+  text-align: center;
+  left: 6%;
 }
 
 .open .flap {
@@ -105,7 +118,7 @@ body{
 }
 
 .open .letter {
-  transform: translateY(-100px);
+  transform: translateY(-200px);
   transition: transform 0.4s 0.6s ease, z-index 0.6s;
   z-index: 2;
 }
@@ -114,24 +127,23 @@ body{
   height: 380px;
 }
 
+.reset{
+  position: relative;
+  top: 290px;
+  left: 41%;
+}
 .reset button {
   font-weight: 800;
-  font-style: normal;
-  transition: all 0.1s linear;
-  -webkit-appearance: none;
-  background-color: transparent;
-  border: solid 2px #d9534f;
+  background-color: brown;
+  border: solid 2px #a61611;
   border-radius: 4px;
-  color: #d9534f;
-  display: inline-block;
-  font-size: 14px;
+  color: #fff6f6;
   text-transform: uppercase;
   margin: 5px;
   padding: 10px;
-  line-height: 1em;
   text-decoration: none;
   min-width: 120px;
-  cursor: pointer;
+
 }
 
 .reset button:hover {
