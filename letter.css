@@ -21,14 +21,13 @@ body{
     position: absolute;
     width: 0;
     height: 0;
-    z-index: 3;
+    z-index: 4;
     border-left: 190px solid transparent;
     border-right: 190px solid transparent;
     border-bottom: 132px solid transparent;
     border-top: 148px solid #cac44d;
     border-radius: 6px;
     transform-origin: top;
-    pointer-events: none;
 }
 
 .pocket{
@@ -36,7 +35,7 @@ body{
     width: 0;
     height: 0;
     z-index: 3;
-    border-left: 190px solid #e2ec59; /* Soft pinkish red for the pocket */
+    border-left: 190px solid #e2ec59; 
     border-right: 190px solid#e0ec59;
     border-bottom: 140px solid #cab34d;
     border-top: 140px solid transparent;
@@ -56,14 +55,6 @@ body{
     box-shadow: 0 2px 26px rgba(0, 0, 0, 0.12);
 }
 
-.letter:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
 
 .words {
   position: absolute;
@@ -132,6 +123,7 @@ body{
   top: 290px;
   left: 41%;
 }
+
 .reset button {
   font-weight: 800;
   background-color: brown;
@@ -141,8 +133,7 @@ body{
   text-transform: uppercase;
   margin: 5px;
   padding: 10px;
-  text-decoration: none;
-  min-width: 120px;
+  width: 120px;
 
 }
 

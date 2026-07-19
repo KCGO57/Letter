@@ -1,7 +1,7 @@
 $(document).ready(function () {
   var envelope = $("#envelope");
   var btn_open = $("#open");
-  var btn_reset = $("#close");
+  var btn_close = $("#close");
 
   envelope.click(function () {
     open();
@@ -9,7 +9,7 @@ $(document).ready(function () {
   btn_open.click(function () {
     open();
   });
-  btn_reset.click(function () {
+  btn_close.click(function () {
     close();
   });
 
