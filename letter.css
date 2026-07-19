@@ -1,6 +1,8 @@
 body{
     background-color: rgb(255, 210, 187);
+    overflow: hidden;
 }
+
 
 
 #envelope{
@@ -123,9 +125,7 @@ body{
   z-index: 2;
 }
 
-.envlope-wrapper {
-  height: 380px;
-}
+
 
 .reset{
   position: relative;
